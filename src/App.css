@@ -1,0 +1,92 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-header img {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  max-width: 752px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+}
+
+.App-header img {
+  max-width: 64px;
+  height: auto;
+}
+
+.alert {
+  min-width: 35%;
+  margin: 0 auto;
+}
+
+.stackAlert {
+  min-width: 50%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+/* ListaCnaciones: */
+.ListItemCancionRoot {
+  flex-grow: 1;
+  max-width: 100%;
+  margin: auto;
+}
+.ListItemCancionDemo {
+  background-color: rgb(242, 253, 255);
+  /* background-color: #fff; */
+  margin: 10px;
+  border-radius: 10px;
+  /* border: rgb(201, 241, 255) 1px solid; */
+}
+.ListItemCancionTitle {
+  margin: 4, 0, 2;
+}
+
+/*Letra*/
+/* Letra: */
+.LetraRoot {
+  margin: 2rem auto;
+}
+.LetraLyrics {
+  white-space: pre-wrap !important;
+}
+.LetraTitle {
+  margin-bottom: 3rem !important;
+}
+.LetraMedia {
+  background-size: cover;
+  max-height: 50vh;
+}
+.LetraAddBtn {
+  justify-content: flex-end;
+}
+.LetraGoHome {
+  display: flex;
+  justify-content: center;
+}
